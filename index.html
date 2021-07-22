@@ -5,25 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portfolio WEB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Charm&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffd6ba;
+            font-family: sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .imagens {
+            border-radius: 40%;
+        }
+        
+        #indice {
+            
+        }
+
+        #sobre {
+            font-family: Charm, sans-serif;
+        }
+
+        h1 {
+            font-family: Abril Fatface, sans-serif;
+        }
+        
+    </style>
+
 </head>
 <body>
-    <h2>Índice:</h2>
-    <a href="#quem">Quem sou eu?</a>
+    
+    <div id="indice">
+        <h3>Índice:</h2>
+        <a href="#sobre">Quem sou eu?</a><br>
+        <a href="#habilidades">Quais as minhas habilidades?</a>
+    </div>
     
     <div id="Cabeçalho">
-        <h1 id="quem">Lucas Pinheiro Rocha</h1>
-        <img src=".lucas.jpeg" alt="Foto do dia 24/06/2021, vulgo meu aniversário" width="200px">
+        <h1>Lucas Pinheiro Rocha</h1>
+        <img class="imagens" src="lucas.jpeg" alt="Foto do dia 24/06/2021, vulgo meu aniversário" width="200px">
     </div>
 
     <div id="sobre">
         <h2>Sobre mim:</h2>
-        <p>Meu nome é Lucas Pinheiro Rocha, ou só Lucas. Tenho 30 anos de idade, sou brasileiro e natural de Aracaju/SE 
-            <br>
-            Sou apaixonado por qualquer coisa que desafie a minha mente. Na adolescência, meu ensino médio foi pago com uma bolsa de estudos referente ao Xadrez, no qual me saí muito bem a nível estudantil.
-            <br>
-            Sou casado, apaixonado pelas minhas esposa e filha que me incentivam e impulsionam a ser cada vez melhor.
-            <br>
-        Formado em Contabilidade pela Universidade Federal de Sergipe, estava infeliz e decidi fazer essa transição de carreira para algo que tivesse mais a ver com os meus pontos fortes.
+        <p>Meu nome é Lucas Pinheiro Rocha, ou só Lucas. <br> 
+            Tenho 30 anos de idade, sou <strong>brasileiro</strong> e natural de <strong>Aracaju, estado de Sergipe</strong>. <br>
+            Sou apaixonado por qualquer coisa que desafie a minha mente. <br> 
+            Na adolescência, meu ensino médio foi pago com uma bolsa de estudos referente ao Xadrez, no qual me saí muito bem a nível estudantil. <br>
+            Sou casado, apaixonado pelas minhas esposa e filha que me incentivam e impulsionam a ser cada vez melhor. <br>
+            Formado em Contabilidade pela Universidade Federal de Sergipe. <br>
+            Não estava satisfeito com a profissão e decidi fazer essa transição de carreira para algo que tivesse mais a ver com os meus pontos fortes.
         
         </p>
     </div>
@@ -31,11 +64,11 @@
     <div id="habilidades">
         <h2>Lista de Habilidades:</h2>
             <ul>
-                <li>Escuta ativa</li>
-                <li><strong>Raciocínio Lógico</strong></li>
-                <li>Raciocínio Analítico</li>
-                <li>Criatividade</li>
-                <li>Pensamento Abstrato</li>
+                <li id="escuta-ativa">Escuta ativa</li>
+                <li id="raciocinio-logico">Raciocínio Lógico</li>
+                <li id="raciocinio-analitico">Raciocínio Analítico</li>
+                <li id="criatividade">Criatividade</li>
+                <li id="pensamento-abstrato">Pensamento Abstrato</li>
                 
             </ul>
     </div>
